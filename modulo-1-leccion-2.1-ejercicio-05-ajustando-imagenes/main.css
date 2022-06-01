@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Poniendo el ancho y alto de 100px, tenemos el mismo ancho y alto de la imagen, pero al poner la propiedad box-sizing y valor border-box, tenemos menos espacio y por eso la imagen se sale de su contenedor, que es el div. Son 100px - (5+5 del borde) - (10+10 del padding)= 70px.
+div{
+    width: 100px;
+    height: 100px;
+    border: solid 5px;
+    padding: 10px;
+    margin: 0 auto; 
+}
+*/
+
+/*Ponemos un width y heigth más altos para que quepa la imagen dentro*/
+div{
+    width: 120px;
+    height: 120px;
+    border: solid 5px;
+    padding: 10px;
+    margin: 0 auto; 
+}
+
+/*Para centrar la imagen, puse un tamaño de alto y ancho del tamaño del contain del div (90px)*/
+.bird{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
