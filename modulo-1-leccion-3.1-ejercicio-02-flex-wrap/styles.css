@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+   
+}
+
+.imagen{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%;
+    
+}
