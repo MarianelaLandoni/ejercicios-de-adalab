@@ -1,0 +1,26 @@
+
+/*Eje principal en columna (cross axis)*/
+
+.contenedor{
+    width: 500px;
+    height: 500px;
+    border: solid 3px blue;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Eje principal en fila (main axis)*/
+
+/*.contenedor{
+    width: 500px;
+    height: 500px;
+    border: solid 3px blue;
+    display: flex;
+    flex-direction: raw; es el que viene por defecto
+}*/
+
+
+.item{
+    background-color: aquamarine;
+    border: solid 1px cornflowerblue;
+}
