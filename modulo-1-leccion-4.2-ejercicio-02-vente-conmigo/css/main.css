@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*Header*/
+
+.header{
+    background-color: blueviolet;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+
+.header .menu{
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.header li{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header li:hover{
+    font-size: 1.7rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+/*main*/
+
+.main{
+    width: 75vw;
+    margin: auto;
+    position: relative;
+    top: 60px;
+}
+
+.main h1{
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+/*artículos*/
+
+.titulo{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.text{
+    padding: 1.5rem;
+    line-height: 1.5;
+}
