@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    background-color: rgb(167, 167, 167);
+    height: 10%;
+}
+
+.main{
+    height: 90%;
+}
+
+.main .links{
+    background-color: greenyellow;
+    height: 10%;
+}
+
+.main .section2{
+    background-color: yellow;
+    height: 60%;
+
+}
+
+.boxOrange{
+    width: 150px;
+    height: 120px;
+    background-color: orange;
+    display: none;
+}
+
+.section3{
+    background-color: grey;
+    overflow: hidden;
+    height: 20%;
+}
+
+@media all and (min-width: 480px){
+    .main{
+        display: flex;
+    }
+
+    .boxOrange{
+        display: block;
+    }
+}
