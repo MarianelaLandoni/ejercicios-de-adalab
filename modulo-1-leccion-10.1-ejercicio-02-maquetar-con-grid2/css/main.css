@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header{
+    height: 20vh;
+    background-color: palevioletred;
+    grid-column: span 12;
+}
+
+.menu{
+    height: 60vh;
+    background-color: purple;
+    grid-column: span 4;
+}
+
+.content{
+    height: 60vh;
+    background-color: brown;
+    grid-column: span 8;
+}
+
+.footer{
+    height: 20vh;
+    background-color: skyblue;
+    grid-column: span 12;
+}
