@@ -1,0 +1,14 @@
+.button1,
+.button2{
+    display: inline-block;
+    font-size: 8px;
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(79, 153, 218);
+}
+
+.buttonChange{
+    background-color: rgba(79, 218, 116, 0.5);
+}
