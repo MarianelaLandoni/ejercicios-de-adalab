@@ -1,0 +1,14 @@
+"use strict";
+
+function getDogImage() {
+  fetch("https://dog.ceo/api/breeds/image/random")
+    .then((response) => response.json())
+    .then((data) => {
+      const img = document.querySelector("img");
+      img.src = data.message;
+      img.alt = "Un perro";
+      img.title = "Un perrito";
+    });
+}
+const btn = document.querySelector(".js_dog");
+btn.addEventListener("click", getDogImage);
