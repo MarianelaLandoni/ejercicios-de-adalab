@@ -30,3 +30,23 @@ function getCharacter() {
 }
 
 search.addEventListener('click', getCharacter);
+
+//practica
+
+const newButton = document.querySelector('.js_newButton');
+
+// function handleClick(event) {
+//   event.preventDefault();
+//   for (const item of dataAnime) {
+//     console.log(data);
+//     console.log(item.name);
+//   }
+// }
+
+newButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  for (const item of dataAnime) {
+    console.log(data);
+    console.log(item.name);
+  }
+});
