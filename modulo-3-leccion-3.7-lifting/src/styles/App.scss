@@ -1,0 +1,73 @@
+.label-text {
+  display: block;
+  margin-top: 1em;
+}
+.input-text,
+.input-select {
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 50%;
+  background-color: #ddd;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  outline: none;
+  vertical-align: middle;
+}
+.input-select {
+  width: calc(50% + 0.6em);
+}
+.form__input-text {
+  display: block;
+}
+.label-radio {
+  display: inline-block;
+  width: 15ch;
+}
+
+.label-check {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.preview {
+  &__title {
+    margin: 1em 0 0.5em 0;
+  }
+  &__list {
+    margin: 0 0 0.5em 2em;
+  }
+}
+
+.button {
+  margin: 0.25rem;
+  padding: 0.35rem 0.8rem;
+  text-align: center;
+  background-color: #14d9c4;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+
+  & * {
+    color: white;
+  }
+
+  &:hover {
+    background-color: #099d8d;
+    border-color: #14d9c4;
+  }
+  &:disabled {
+    background-color: red;
+  }
+}
+
+.button.reset {
+  background-color: grey;
+}

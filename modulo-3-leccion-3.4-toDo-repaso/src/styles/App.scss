@@ -1,0 +1,26 @@
+
+.tasklist {
+  margin: 2em;
+  list-style-type: none;
+}
+
+.task {
+  width: 50%;
+  display: flex;
+  line-height: 2em;
+  border: dotted 1px #DDD;
+  border-radius: 2px;
+  margin: 3px;
+
+  &.completed {
+    text-decoration: line-through;
+  }
+}
+
+.form {
+  margin: 1em;
+
+  &__title {
+    margin-bottom: .5em;
+  }
+}
